@@ -23,6 +23,8 @@ public class Main {
 
         staciakampis(10, 5);
 
+        countText("Šiandien labai graži diena");
+
 
     }
 
@@ -108,6 +110,31 @@ public class Main {
 
 
     //ciklas
+
+//======================== 9 uzd ==========================
+//    public static void countText(String text){
+//        int txt = text.length();
+//        int counText = 0;
+//
+//        for (int i = 0; i < text.length(); i++) {
+//            if (Character.isLetter(text.charAt(i))){
+//                counText++;
+//            }
+//        }
+//        System.out.println("Tekste raidziu " + counText + "Tekste tarpu " + (txt - counText));
+//    }
+    public static void countText(String text) {
+        int tekstassutarpais = text.length();
+        int raides = text.replace(" ", "").length();
+
+        System.out.println("Tekste raidziu yra " + raides + ". Tekste tarpu yra " + (tekstassutarpais - raides));
+
+    }
+
+
+
+
+
 
 
 }
