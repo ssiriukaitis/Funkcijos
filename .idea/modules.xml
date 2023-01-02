@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Funkcijos.iml" filepath="$PROJECT_DIR$/Funkcijos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Modulis bandymas/Modulis bandymas.iml" filepath="$PROJECT_DIR$/Modulis bandymas/Modulis bandymas.iml" />
+    </modules>
+  </component>
+</project>
